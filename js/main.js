@@ -1,5 +1,5 @@
-var onClick = function() {
-    alert('Hi');
-};
-
-$('#button').click(onClick);
+/* card flip */
+$(".flip").click(function(){
+  $(this).find(".card").toggleClass("flipped");
+  return false;
+});
